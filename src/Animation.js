@@ -7,19 +7,19 @@ function FirstBox(){
     return(
         <>
         <div className='box'>
-            <img src={"https://freesvg.org/img/pointing_hand.png"}/>
+            <img src={"https://freesvg.org/img/pointing_hand.png"} alt="pointer"/>
         </div>
 
         <div className='box2'>
-            <img src={"https://freesvg.org/img/drawn_womans_face_002.png"}/>
+            <img src={"https://freesvg.org/img/drawn_womans_face_002.png" } alt="Woman"/>
         </div>
 
         <div className='box3'>
-            <img src={"https://freesvg.org/img/Unknown-Black.png"}/>
+            <img src={"https://freesvg.org/img/Unknown-Black.png"} alt="Man"/>
         </div>
 
         <div className='box4'>
-            <img src={"https://freesvg.org/img/tonlima_Olho_Azul_Blue_Eye.png"}/>
+            <img src={"https://freesvg.org/img/tonlima_Olho_Azul_Blue_Eye.png"} alt="Eye"/>
         </div>
 
         </>
