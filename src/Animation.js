@@ -5,9 +5,25 @@ import {ScrollTrigger} from 'gsap/ScrollTrigger'
 
 function FirstBox(){
     return(
+        <>
         <div className='box'>
-
+            <img src={"https://freesvg.org/img/pointing_hand.png"}/>
         </div>
+
+        <div className='box2'>
+            <img src={"https://freesvg.org/img/drawn_womans_face_002.png"}/>
+        </div>
+
+        <div className='box3'>
+            <img src={"https://freesvg.org/img/Unknown-Black.png"}/>
+        </div>
+
+        <div className='box4'>
+            <img src={"https://freesvg.org/img/tonlima_Olho_Azul_Blue_Eye.png"}/>
+        </div>
+
+        </>
+        
     )
 }
 
@@ -20,10 +36,10 @@ function Animation(){
 
     useEffect(()=>{
         gsap.fromTo(
-            '.box', {rotation: 0},{rotation: 360,  scrollTrigger:{
+            '.box', {rotation: 0},{rotation: 45,  scrollTrigger:{
                 start: "top center",
                 end: "bottom center",
-                scrub:true,
+                scrub:true, 
                 duration:4,
                 trigger: ".box",
                 x:400,
@@ -31,7 +47,38 @@ function Animation(){
             }}
             
             )
+    
+
+    gsap.fromTo(
+        '.box2', {rotation: 0},{rotation: 45,  scrollTrigger:{
+            start: "top center",
+            end: "bottom center",
+            scrub:true, 
+            duration:4,
+            trigger: ".box2",
+            x:400,
+            markers:true
+        }}
+        
+        )
+
+        gsap.fromTo(
+            '.box4', {opacity: 0},{opacity: 100,  scrollTrigger:{
+                start: "top center",
+                end: "+=300",
+                scrub:true, 
+                duration:4,
+                trigger: ".box4",
+                x:400,
+                markers:true
+            }}
+            
+            )
+    
+        
+
     },[])
+    
 
     return(
         <>

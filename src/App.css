@@ -45,5 +45,57 @@
   top: 30em;
   width: 200px;
   height: 200px;
-  background-color: blue;
+  
+}
+
+.box2{
+  position: relative;
+  top: 23em;
+  width: 200px;
+  height: 200px;
+  
+}
+
+.box3{
+  position: relative;
+  top: 23em;
+  width: 200px;
+  height: 200px;
+  
+}
+
+.box4{
+  position: relative;
+  top: 23em;
+  width: 200px;
+  height: 200px;
+  
+}
+
+.box img{
+  width: 200px;
+}
+
+.box2 img{
+  position: relative;
+  left: 7.5rem;
+  top: 3rem;
+  width: 100px;
+}
+
+.box3 img{
+  position: relative;
+  left: 7.5rem;
+  
+  transform: rotate(70deg);
+  width: 100px;
+}
+
+
+.box4 img{
+  position: relative;
+  left: 8rem;
+  bottom: 12rem;
+  transform: rotate(70deg);
+  width: 30px;
 }
